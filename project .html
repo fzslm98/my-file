@@ -1,0 +1,92 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PakWheels Clone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+    body { background-color: white; }
+    .navbar { background-color: red; }
+    .navbar-brand, .nav-link { color: white !important; }
+    .hero {
+    background: url('./images/pictures/audi.jpg') center/cover;
+    height: 400px;
+    display: flex;
+    align-items: center;    justify-content: center;
+    color: white;
+    text-align: center;
+    }
+    .card img { height: 180px; object-fit: cover; }
+    .footer {
+    background: black;
+    color: grey;
+    padding: 20px 0;
+    text-align: center;
+    }
+</style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+    <div class="container">
+    <a class="navbar-brand" href="#">PakWheels</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#">Used Cars</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">New Cars</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Bikes</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Auto Store</a></li>
+    </ul>
+    </div>
+</div>
+</nav>
+<div class="hero">
+<div>
+    <h1>Find Used Cars in Pakistan</h1>
+    <p>Search from thousands of listings</p>
+    <input type="text" class="form-control w-50 mx-auto" placeholder="Search cars...">
+</div>
+</div>
+<div class="container my-5">
+<h3 class="mb-4">Featured Used Cars</h3>
+<div class="row"><div class="col-md-4">
+<div class="card">
+    <img src="./images/pictures/picture 4.jpg" class="card-img-top">
+    <div class="card-body">
+    <h5 class="card-title">Toyota Corolla 2020</h5>
+    <p class="card-text">PKR 45 Lac</p>
+    <a href="#" class="btn btn-danger">View Details</a>
+    </div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card">
+    <img src="./images/pictures/picture 2.jpg" class="card-img-top">
+    <div class="card-body">
+    <h5 class="card-title">Honda Civic 2019</h5>
+    <p class="card-text">PKR 55 Lac</p>
+    <a href="#" class="btn btn-danger">View Details</a>
+    </div>
+</div>
+</div>
+
+<div class="col-md-4">
+    <div class="card">
+    <img src="./images/pictures/picture 1.jpg" class="card-img-top">
+    <div class="card-body">
+    <h5 class="card-title">Suzuki Alto 2022</h5>
+    <p class="card-text">PKR 25 Lac</p>
+    <a href="#" class="btn btn-danger">View Details</a>
+    </div>
+    </div>
+</div>
+    </div>
+</div>
+<div class="footer">
+    <p>© 2026 PakWheels Clone. All rights reserved.</p>
+</div>
+</body>
+</html>
